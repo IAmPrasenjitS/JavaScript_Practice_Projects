@@ -1,0 +1,22 @@
+@import url(font-awesome-4.7.0/css/font-awesome.min.css);
+body {
+	background-color: darkmagenta;
+	color: #fff;
+}
+.form-control,.form-select, .form-control:focus {
+	background-color: darkmagenta;
+	color: white;
+}
+select option.selected{
+    background-color: black;
+}
+
+.col-md-4.content {
+	padding: 15px;
+	border: 2px solid skyblue;
+	background-color: magenta;
+	border-radius: 5px;
+}
+#errors {
+	position: fixed;
+}

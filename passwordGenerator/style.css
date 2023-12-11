@@ -1,0 +1,13 @@
+body {
+	background-color: black;
+	color: white;
+}
+.form-control, .form-control:focus {
+	background-color: black;
+    color: white;
+}
+.input-group-text {
+	background-color: black;
+	color: white;
+    cursor: pointer;
+}

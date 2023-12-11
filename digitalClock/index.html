@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container text-center">
+        <h1 class="text-center">Digital Clock By JavaScript</h1>
+        <h3><input class="btn btn-primary" type="button" id="clockFormat24" value="24 Hrs" onclick="show24Hide12()">
+            <input class="btn btn-primary" type="button" id="clockFormat12" value="12 Hrs" onclick="show12Hide24()"></h3>
+        <br>
+        <div class="row">
+            <div id='digital-clock'>
+                <!-- 12 Hrs Clock -->
+                <span class="class12" id="hour">00</span><span id="dot1" class='class12 red-dot'>:</span>
+                <span class="class12" id='min'>00</span><span id="dot2" class='class12 red-dot'>:</span>
+                <span class="class12" id='second'>00</span>
+                <!-- 24 Hrs Clock -->
+                <span class="hide" id="hour24">00</span><span id="dot3" class='hide red-dot'>:</span>
+                <span class="hide" id='min24'>00</span><span id="dot4" class='hide red-dot'>:</span>
+                <span class="hide" id='second24'>00</span>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

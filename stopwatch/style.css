@@ -1,0 +1,26 @@
+body {
+    background-color: blueviolet;
+}
+
+#digital-clock {
+    text-align: center;
+    font-size: 815%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.red-dot {
+    color: red;
+}
+.snapDiv {
+	text-align: center !important;
+	color: #fff;
+}
+#snap {
+	font-size: 25px;
+}
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+}

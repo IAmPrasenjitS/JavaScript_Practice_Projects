@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="text-center">Encrypt your text</h1>
+      <br />
+      <div class="row">
+        <label class="col-md-2"></label>
+        <div class="col-md-4">
+          <form name="encryptionForm">
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Enter data to encrypt</label>
+              <textarea class="form-control" id="textarea1" rows="3" ></textarea><br>
+              <input id="btn" type="button" class="btn btn-primary float-end" value="Encrypt">
+            </div>
+          </form>
+          <br><br><br>
+          <form name="encryptionForm">
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Enter encrypted data to Decrypt</label>
+              <textarea class="form-control" id="textarea2" rows="3" ></textarea><br>
+              <input id="btnD" type="button" class="btn btn-success float-end" value="Decrypt">
+            </div>
+          </form>
+        </div>
+        <label class="col-md-2"></label>
+        <div class="col-md-4">
+            <p id="convertedData">Converted Data Here</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
